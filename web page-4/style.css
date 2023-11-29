@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #000;
+  background-color: #f1f1f1;
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container > .row-1 {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+.container > .row-1 > h1 {
+  font-weight: 500;
+  margin: 10px 0;
+  font-size: 36px;
+}
+
+.unknown {
+  background-color: #000;
+  color: #fff;
+  display: inline-block;
+  padding-left: 8px;
+  padding-right: 8px;
+  text-align: center;
+}
+
+.split {
+  display: flex;
+}
+
+.split > .left {
+  height: 1177px;
+  width: 933px;
+}
+.width {
+  padding: 0 28px;
+}
+.split > .left > .p-1 {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 16px;
+}
+.split > .left > .p-1 > h2 {
+  margin: 10px;
+  padding: 0 16px;
+}
+.split > .left > .p-1 > h5 {
+  font-size: 18px;
+  margin: 10px;
+  padding: 0 16px;
+  font-weight: normal;
+}
+
+.split > .left > .p-2 {
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+
+  margin: 16px;
+}
+
+.button {
+  display: flex;
+  justify-content: space-between;
+}
+.button > button {
+  border: 1px solid gray;
+  height: 48px;
+  width: 149px;
+  background-color: white;
+  font-size: 15px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+.button > button:hover {
+  background-color: rgb(227, 212, 212);
+  color: black;
+}
+.button span {
+  background-color: black;
+  color: white;
+  padding: 1px 8px;
+}
+
+/* right */
+.right-1 {
+  width: 33%;
+}
+
+.p-1 {
+  margin: 16px;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.width2 {
+  padding: 0 16px 15px;
+}
+
+.right .part-2 {
+  margin: 16px;
+  color: #000;
+  background-color: #fff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.part-2 h4 {
+  padding: 24px 16px 8px;
+  line-height: 1.5;
+  font-size: 18px;
+  background: #f1f1f1;
+  height: 50px;
+}
+.part-2 > .ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.part-2 > .ul li {
+  padding: 16px 16px;
+  border-bottom: 1px solid #ddd;
+}
+.part-2 > .ul > .li {
+  border-bottom: 1px solid #ddd;
+}
+.part-2 > .ul img {
+  float: left;
+  margin-right: 16px;
+  width: 50px;
+  padding-bottom: 8px;
+}
+
+.part-2 > h3 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+
+.lorem {
+  font-size: 19px;
+}
+.footer {
+  background-color: black;
+  color: white;
+  height: 53px;
+  padding: 8px 16px;
+}
